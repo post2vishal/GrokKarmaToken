@@ -1,0 +1,15 @@
+{
+  "name": "grok-karma-token",
+  "version": "1.0.0",
+  "description": "GKT: Reward system for xAI’s Grok AI and browser",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "ethers": "^5.7.0",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  },
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia"
+  }
+}
